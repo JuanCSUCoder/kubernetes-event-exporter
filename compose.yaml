@@ -1,0 +1,6 @@
+services:
+  rower:
+    image: juancsucoder/kes:1.7.0
+    build:
+      context: .
+      dockerfile: Dockerfile
